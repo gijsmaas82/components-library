@@ -1,0 +1,14 @@
+.header {
+  position: fixed;
+  height: 10vh;
+  width: 100vw;
+  background-color: $first-background-color;
+
+  &__homeBtn {
+    font-weight: 800;
+
+    &.open {
+      color: $second-font-color;
+    }
+  }
+}
